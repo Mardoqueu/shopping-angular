@@ -1,0 +1,21 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+.item img{
+    width: 64px;
+}
+.item{
+    margin: 0px 15px;
+    text-align: center;
+}
+.item a:hover{
+    color: blue;
+}
