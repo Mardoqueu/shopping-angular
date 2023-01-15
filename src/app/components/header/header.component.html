@@ -1,17 +1,14 @@
 <header>
-    <div class="navbar navbar-dark bg-primary shadow-sm">
-        <div class="navbar-brand aling-item-center d-flex">
-            <i style="font-size: 40px; cursor: pointer;" routerLink="/products" class="fa-brands fa-angular">&nbsp;
+    <div class="navbar navbar-dark bg-danger shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i routerLink="/products" style="font-size: 40px; cursor: pointer;" class="fa-brands fa-angular">&nbsp;
+                
             </i>
-            <strong style="font-size: 30px; cursor: pointer;" routerLink="/products">Angular Shopping</strong>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="search products">
-            </div>
-            <span class="fas fa-search search-icon"></span>
+                <strong routerLink="/products"  style="font-size: 30px; cursor: pointer;">Angular Shopping</strong>
         </div>
-        <button routerLink="cart" class="btn btn-primary">
+        <button routerLink="cart" class="btn btn-danger">
             <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
-            <div style="font-size: 10px;" font class="badge bg-danger">{{totalItem}}</div>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
         </button>
     </div>
 </header>
