@@ -10,23 +10,13 @@
 
 ### ✨ [Demo](https://shoppingangular.vercel.app/products)
 
-## Install
+## Screenshot 
 
-```sh
-npm install
-```
+![screencapture-shopping-angular-ia4jq5a0m-mardoqueu-vercel-app-products-2023-01-15-19_02_54](https://user-images.githubusercontent.com/11077068/212569595-5648e3b4-6ad6-4ef5-b572-fd98edbfa955.png)
 
-## Usage
+![screencapture-shopping-angular-ia4jq5a0m-mardoqueu-vercel-app-cart-2023-01-15-19_03_33](https://user-images.githubusercontent.com/11077068/212569598-111443e4-a0b2-4733-98ae-47b1bc17cce0.png)
 
-```sh
-npm run start
-```
 
-## Run tests
-
-```sh
-npm run test
-```
 
 ## Author
 
