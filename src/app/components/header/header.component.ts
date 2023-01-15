@@ -6,16 +6,15 @@ import { CartService } from 'src/app/service/cart.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit{
+export class HeaderComponent implements OnInit {
 
   public totalItem : number = 0;
-  constructor(private cartService: CartService){  }
+  constructor(private cartService : CartService) { }
 
   ngOnInit(): void {
-      this.cartService.getProducts()
-      .subscribe(res=>{
-        this.totalItem = res.length;
-      })
+    this.cartService.getProducts()
+    .subscribe(res=>{
+      this.totalItem = res.length;
+    })
   }
-
 }
