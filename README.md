@@ -8,6 +8,17 @@
 
 > The shopping cart page is designed to allow buyers to see all the products they have added to the shopping cart. It contains a detailed list of products and their prices, and is the last stop before customers order and pay.
 
+* Consuming Fake store API : https://fakestoreapi.com/products/
+* Add to cart
+* Detailed list of products
+* Last stop before customers order and pay
+* Empty Cart
+* Delete individually items
+* Shop More
+* Grand Total
+* Category
+
+
 ### ✨ [Demo](https://shoppingangular.vercel.app/products)
 
 ## Screenshot 
