@@ -19,7 +19,7 @@ export class ProductsComponent implements OnInit{
     .subscribe(response=>{
       this.productList = response;
 
-      this.productList.array.forEach((a:any) => {
+      this.productList.forEach((a:any) => {
         Object.assign(a, {quantity:1, total:a.price});
       });
     })

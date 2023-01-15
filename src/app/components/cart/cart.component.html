@@ -28,6 +28,13 @@
                                 <button (click)="removeItem(item)"  class="btn btn-danger"><i class="fas fa-trash"></i></button>
                             </td>   
                         </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td><button (click)="emptyCart()" class="btn btn-danger">Empty Carts</button></td>
+                            <td><button routerLink="/products" class="btn btn-primary">Shop more</button></td>
+                            <td><button class="btn btn-success">Check out</button></td>
+                            <td><strong>Grand Total : $ {{grandTotal}}</strong></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
